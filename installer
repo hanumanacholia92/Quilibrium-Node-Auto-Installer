@@ -171,7 +171,7 @@ fi
      done
      printf "\nDone!\n" # After the countdown completes, print "Done!" on a new line
  }
- countdown 2 || { echo "Failed to wait! Exiting..."; exit_message; exit 1; }
+ countdown 300 || { echo "Failed to wait! Exiting..."; exit_message; exit 1; }
 
 
 #!/bin/bash
